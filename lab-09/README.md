@@ -140,8 +140,5 @@ initial begin
   $finish;
 end
 ```
-Or add a SystemVerilog assertion:
-```verilog
-assert property(@(posedge clk) q_prev==8'hFF |-> q==8'h00);
-```
+
 
