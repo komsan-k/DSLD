@@ -142,7 +142,5 @@ endfunction
 
 ---
 
-## Integration Tip
-Combine modules: `en = tick_1hz & run_en;`  
-Feed `en` into counter, and multiplex display separately at ~1 kHz for flicker-free operation.
+
 
