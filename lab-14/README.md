@@ -3,8 +3,7 @@
 1.  **Add parity bit generation and checking.**\
     Parity ensures simple error detection. For data bus D\[DBITS-1:0\]:\
 
-```{=html}
-<!-- -->
+
 ```
     even parity bit p_EVEN = XOR(D)
     odd parity bit  p_ODD  = NOT(XOR(D))
